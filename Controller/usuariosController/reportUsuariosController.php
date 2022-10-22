@@ -61,12 +61,10 @@ switch($_REQUEST["accion"])
               border-top: 1px solid #d7d7d7;font-size:14px; font-weight:bold;'>
             <td style='width:10px;'>ID</td>
             <td style='width:100px;'>USUARIO</td>
-            <td style='width:100px;'>NOMBRE</td>
-            <td style='width:100px;'>APELLIDO</td>
             <td style='width:60px;'>ROL</td>
             <td style='width:20px;'>ESTADO</td>
           </tr>";
-          $q='SELECT * FROM usuarios AS u LEFT JOIN empleado AS e ON u.ID_empleado=e.ID_empleado';
+          $q='SELECT * FROM usuarios AS u';
         $consulta=$conexion->query($q);
      while ($dato = $consulta->fetch(PDO::FETCH_ASSOC))
       {
@@ -80,8 +78,6 @@ $codigoHTML.='
               border-top: 1px solid #d7d7d7;">
         <td style="padding: 4px">'.$dato['idusuario'].'</td>
         <td style="padding: 4px">'.$dato['nombreusuario'].'</td>
-        <td style="padding: 4px">'.$dato['nombres'].'</td>
-        <td style="padding: 4px">'.$dato['apellidos'].'</td>
         <td style="padding: 4px">'.$dato['tipo_usuario'].'</td>
         <td style="padding: 4px">'.$dato['estado'].'</td>
       </tr>';

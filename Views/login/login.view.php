@@ -108,5 +108,5 @@ hr	{
         bottom:0;
     }
 </style>
-<p class="copyright"> © Karen Perez 2022</p>
+
 </html>

@@ -6,7 +6,7 @@
   --burbuja-color: white;
   --burbuja-sombra: rgba(0, 0, 0, 0.1);
   --burbuja-inactivo: #ff0000;
-  --chat-ancho: 100%;
+  --chat-ancho: 320px;
   --chat-sombra: rgba(0, 0, 0, 0.1);
   --chat-cabecera: #1976D2;
   --chat-cabecera-texto: #fff;

@@ -8,7 +8,7 @@
 <h1>  Restaurante Fresco  </h1>
 
 <p align="justify"> 
-Estado Táchira, Municipio San Cristóbal </br>  Av. principal de pueblo  nuevo, Vía Polígono de tiro </br> conjunto residencial Sierra Azul Casa N°24 </br> Código postal 5001. </br>Email:frescoesmejor@gmail.com  /  restaurantefrescoca@gmail.com  </br> Telefonos:0414-0792380 /  0414-7114403
+Estado Táchira, Municipio San Cristóbal </br>  Av. principal de pueblo  nuevo, Vía Polígono de tiro </br> conjunto residencial Sierra Azul Casa N°24 </br> Código postal 5001. </br> <b> Email: </b> frescoesmejor@gmail.com  /  restaurantefrescoca@gmail.com  </br> <b> Telefonos: </b> 0414-0792380 /  0414-7114403
 
 
 
